@@ -24,14 +24,18 @@ h1{
 	background-color: #ff567c;
 	width: 100px;
 	height: 100px;
-	padding: 1em;
-	margin-bottom: 1px;
+	
 	
 }
 /*Hover funcionalidade de passar o mouse no item*/
 .servicos:hover {
 	background-color: black;
 	transform: scale(1.5);
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
 }
 
 /*Centralizar utilizar margin left e right auto*/
