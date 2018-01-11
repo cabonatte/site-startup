@@ -1,0 +1,58 @@
+
+.nav{
+	
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #007E9E;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+h1{
+	color: white;
+	margin: 0;
+	border-style: solid;
+	border-color: #00CED1;
+	background-color: #00CED1;
+	padding: 20px 40px 60px;
+	}
+
+.servicos {
+	color: white;
+	background-color: #ff567c;
+	width: 100px;
+	height: 100px;
+	padding: 1em;
+	margin-bottom: 1px;
+	
+}
+/*Hover funcionalidade de passar o mouse no item*/
+.servicos:hover {
+	background-color: black;
+	transform: scale(1.5);
+}
+
+/*Centralizar utilizar margin left e right auto*/
+#menu-bares{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.login{
+	display: inline-block;
+    padding: 0.6em 0.8em;
+    margin: 0 0.4em;
+    background-color: #FF5A6A;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-left: auto;
+}
