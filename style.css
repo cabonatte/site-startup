@@ -15,10 +15,10 @@ body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 700px;
+	height: 800px;
 	color: black;
 	background-color: #e4e9eb;
-	font-family: 'Indie Flower', cursive;
+
 	border: none;
 	display:flex;
 	align-content: space-around;
@@ -55,27 +55,29 @@ body{
 	padding: 15px;
 }
 .div5{
-	margin-top: 146px;
+	margin-top: 24%;
 	width: 100%;
 	height: 40px;
-	font-size: 30px;
+	font-size: 32px;
 	text-align: center;
+	font-family: 'Indie Flower', cursive;
 }
 .pg{
 	margin: 0;
 	width: 230px;
-	height: 75px;
-	font-size: 27px;
+	height: 18%;
+	font-size: 30px;
 	text-align: center;
 	padding-left: 10%;
+	margin-top: 13%
 }
 .pp{
 	margin: 0;
 	width: 275px;
-	height: 115px;
-	font-size: 20px;
+	height: 164px;
+	font-size: 23px;
 	text-align: center;
-	margin-top: 14%;
+	margin-top: 22%;
 }
 
 #menu-bares{
