@@ -6,6 +6,78 @@ body{
 	font-family: 'Cabin Sketch', cursive;
 }
 
+
+#monkey{
+	color: black;
+}
+
+.benefits{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 700px;
+	color: black;
+	background-color: #e4e9eb;
+	font-family: 'Indie Flower', cursive;
+	border: none;
+	display:flex;
+	align-content: space-around;
+	flex-direction: column;
+	justify-content: ;
+}
+.div1{
+	margin-top: -30px;
+	width: 100%;
+	height: 120px;
+	font-size: 38px;
+	text-align: center;
+}
+.divmae{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	height: 400px;
+	justify-content: space-around;
+}
+.divfilha{
+	width: 275px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	text-align: center;
+}
+.divfilha img{
+	width: 260px;
+	border-radius: 50%;
+	height: 260px;
+	padding: 15px;
+}
+.div5{
+	margin-top: 146px;
+	width: 100%;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+}
+.pg{
+	margin: 0;
+	width: 230px;
+	height: 75px;
+	font-size: 27px;
+	text-align: center;
+	padding-left: 10%;
+}
+.pp{
+	margin: 0;
+	width: 275px;
+	height: 115px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 14%;
+}
+
 #menu-bares{
 	margin-left: auto;
 	margin-right: auto;
@@ -51,7 +123,7 @@ nav{
 	justify-content: space-between;
 	align-items: center;
 
-	
+
 }
 
 .foto{
@@ -238,9 +310,3 @@ button:hover {
 }
 
 /*CSS Sign-up Fim*/
-
-
-
-
-
-
