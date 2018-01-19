@@ -14,15 +14,15 @@ function playPause(){
 }
 
 function makeBig() {
-	myVideo.width = 550;
+	myVideo.width = 800;
 }
 
 function makeSmall() {
-	myVideo.width = 320;
+	myVideo.width = 420;
 }
 
 function makeNormal() {
-	myVideo.width = 420;
+	myVideo.width = 550;
 }
 
 
@@ -52,4 +52,5 @@ function invertcolor() {
 			body.style.filter = "invert(100%)";
 		};
 }
+
 
