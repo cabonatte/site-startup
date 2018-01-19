@@ -1,4 +1,5 @@
 const myVideo = document.getElementById("video");
+let k = 0;
 
 let imagem = document.getElementById("turtle");
 
@@ -53,8 +54,34 @@ function invertcolor() {
 		};
 }
 
-const perfis = document.getElementsByClass("persona")
+const perfis = document.getElementsByClassName("persona")
 function mexePersona(){
 		alert("Veja me conhecer melhor!!!");
 	};
 
+// Parte Patricia
+
+function virarbola1(){
+     let imagem = document.getElementById("picfriends");
+     k += 360;
+     imagem.style.transform = "rotatey(" + k + "deg)";
+     imagem.style.transitionDuration = "10s";
+   }
+
+   function virarimagem1(){
+     virarbola1();
+     let imagem = document.getElementById("picfriends");
+     picfriends.className = 'divfilhaimg';
+     picfriends.innerHTML = '<img class="divfilhaimg"src="img/conexao.gif" alt="">';
+     console.log('oi');
+     return true;
+   }
+
+   function virarimagem2(){
+     virarbola1();
+     let imagem = document.getElementById("picfriends");
+     picfriends.className = 'divfilhaimg';
+     picfriends.innerHTML = '<img class="divfilhaimg" src="img/friends.gif" alt="">';
+     console.log('tchau');
+     return true;
+   }
