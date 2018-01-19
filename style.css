@@ -5,19 +5,6 @@ body{
 	background-color: #e4e9eb;
 	margin: 0;
 	font-family: 'Cabin Sketch', cursive;
-
-}
-
-.perfilbody{
-	font-family: 'Cabin Sketch', cursive;
-}
-
-.signupbody{
-	font-family: 'Cabin Sketch', cursive;
-}
-
-.h1edit{
-	font-size: 30px;
 }
 
 
@@ -28,7 +15,7 @@ body{
 #dep{
 	color:black;
 	font-family: 'Cabin Sketch', cursive;
-	font-size: -webkit-xxx-large;
+	font-size: -webkit-xxx-large;	
 }
 
 .benefits{
@@ -136,7 +123,7 @@ nav{
 
 }
 
-.logo {
+.logo img{
 	height: 100px;
 	margin-left: 50px;
 }
@@ -352,14 +339,10 @@ margin: auto;
 /*fim css perfil*/
 
 .videoDiv {
-<<<<<<< HEAD
 	display: inline-block;
 }
 
 	
-=======
-
->>>>>>> 381b323a0a1ae5d823f6694485e31c5a591fd5ac
 
 
 
