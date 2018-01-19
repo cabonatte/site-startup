@@ -53,4 +53,8 @@ function invertcolor() {
 		};
 }
 
+const perfis = document.getElementsByClass("persona")
+function mexePersona(){
+		alert("Veja me conhecer melhor!!!");
+	};
 
