@@ -7,6 +7,18 @@ body{
 	font-family: 'Cabin Sketch', cursive;
 }
 
+.perfilbody{
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.signupbody{
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.h1edit{
+    font-size: 30px;
+}
+
 
 #monkey{
 	color: black;
@@ -110,6 +122,11 @@ body{
 
 }
 
+.logo{
+	height: 100px;
+	margin-left: 50px;
+
+}
 
 nav{
 	position: fixed;
@@ -121,11 +138,6 @@ nav{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-weight: bold;
 
-}
-
-.logo img{
-	height: 100px;
-	margin-left: 50px;
 }
 
 
