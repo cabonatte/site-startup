@@ -96,7 +96,7 @@ body{
 	display: inline-block;
     padding: 0.6em 0.8em;
     margin: 0 0.4em;
-    background-color: #312b2f;;
+    background-color: #312b2f;
     border-radius: 3px;
     color: #fff;
     font-size: 15px;
@@ -106,6 +106,24 @@ body{
     white-space: nowrap;
     cursor: pointer;
     margin-right: 20px;
+
+}
+
+.sexo {
+	display: inline-block;
+    padding: 0.6em 0.8em;
+    margin: 0 0.4em;
+    background-color: #007E9E;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-right: 20px;
+
 }
 
 nav{
@@ -315,6 +333,11 @@ margin: auto;
 
 
 /*fim css perfil*/
+
+.videoDiv {
+	
+
+
 
 
 /*CSS Sign-up Inicio*/

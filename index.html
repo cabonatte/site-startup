@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+<script defer type="text/javascript" src="startupScript.js"></script>
 
 <head>
 	<title>
@@ -13,6 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
+
 
 	<nav>
 		<div class="container-nav">
@@ -33,7 +35,24 @@
 	</div>
 
 	<h2>E que venham novos sorrisos, novas histórias e novas experiências!!!</h2>
+		<button type="sexo" onclick="feminino">Feminino</button> 
+		<button type="sexo" onclick="masculino">Masculino</button> 
+		<button type="sexo" onclick="outros">Não quero informar</button> 
+		
+
 	</header>
+
+	<div class="videoDiv">
+		<video id="video">
+	        <source src="video.mp4" type="video/mp4">
+		</video>
+
+	
+		<button onclick="playPause()">Play/Pause</button>
+		<button onclick="makeSmall()">Small</button>
+		<button onclick="makeNormal()">Normal</button>
+		<button onclick="makeBig()">Big</button>
+	</div>
 
 <section class="servicos">
 	<div class="container">
