@@ -20,3 +20,21 @@ function makeSmall() {
 function makeNormal() {
 	myVideo.width = 420;
 }
+
+function feminino() {
+	const fundo = document.getElementById("fundo")
+	fundo.style.backgroundColor = "#DB7093"
+	
+}
+
+function masculino() {
+	const fundo = document.getElementById("fundo")
+	fundo.style.backgroundColor = "#4682B4"
+	
+}
+
+function outro() {
+	const fundo = document.getElementById("fundo")
+	fundo.style.backgroundColor = "#312b2f"
+	
+}

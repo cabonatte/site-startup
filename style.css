@@ -1,5 +1,6 @@
 
 /*CSS Geral e Cabecalho*/
+
 body{
 	background-color: #e4e9eb;
 	margin: 0;
@@ -109,22 +110,6 @@ body{
 
 }
 
-.sexo {
-	display: inline-block;
-    padding: 0.6em 0.8em;
-    margin: 0 0.4em;
-    background-color: #007E9E;
-    border-radius: 3px;
-    color: #fff;
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-    white-space: nowrap;
-    cursor: pointer;
-    margin-right: 20px;
-
-}
 
 nav{
 	position: fixed;
@@ -160,10 +145,29 @@ nav{
 
 }
 
+/*.sexo {
+	display: inline-block;
+    padding: 0.6em 0.8em;
+    margin: 0 20em;
+    background-color: #312b2f;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-right: 20px;
+
+}*/
+
 header{
 	background-color: #312b2f;
 	padding: 1em 0;
 }
+
+
 
 h1{
 	color: white;
@@ -335,6 +339,9 @@ margin: auto;
 /*fim css perfil*/
 
 .videoDiv {
+	display: inline-block;
+}
+
 	
 
 
@@ -371,9 +378,11 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  /*width: 100%;*/
   opacity: 0.9;
   border-radius: 50px;
+  
+
 }
 
 button:hover {
