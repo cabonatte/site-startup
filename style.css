@@ -350,11 +350,18 @@ margin: auto;
 
 /*fim css perfil*/
 
-.videoDiv {
-	display: inline-block;
+#video {
+	max-height: 800px;
+	max-width: 800px;
+	margin-left: 200px;
+	margin-top: 40px;
 }
 
-	
+
+.containerBotao{
+	display: flex;
+	justify-content: center;
+}	
 
 
 
